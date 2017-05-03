@@ -1,8 +1,8 @@
 <?php 
 include 'view/KonfigurasiUI.php';
 
-$brd = new KonfigurasiUI();
+$konf = new KonfigurasiUI();
 
-$brd->tampilForm();
+$konf->tampilForm();
 
  ?>
