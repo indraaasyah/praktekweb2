@@ -9,7 +9,7 @@
                 <p class="lead">
                     by <a href="index.php">Start Bootstrap</a>
                 </p>
-                <p><i class="fa fa-clock-o"></i> Posted on <?php   echo $dt['tanggal']; ?></p>
+                <p><i class="fa fa-clock-o"></i> Posted on <?php echo date('d-F-Y',strtotime($dt['tanggal']));?></p>
                 <hr>
                 <a href="blog-post.html">
                     <!-- <img class="img-responsive img-hover" src="http://placehold.it/900x300" alt=""> -->
